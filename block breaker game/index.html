@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Neon Block Breaker - Dynamic Square Blocks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-wrapper">
+        <canvas id="gameCanvas"></canvas>
+        <div class="ui-layer">
+            <div class="header">
+                <div id="score-display">SCORE: 0</div>
+                <div id="highscore-display">HIGH: 0</div>
+                <div id="level-display">LEVEL: 1</div>
+                <div id="lives-display">LIVES: 3</div>
+                <div id="pause-btn">⏸</div>
+            </div>
+            <div id="message">NEON BREAKER<br><span style="font-size: clamp(0.8rem, 2.5vw, 1.2rem); color:#aaa;">TAP OR PRESS SPACE TO START</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
